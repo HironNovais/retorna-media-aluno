@@ -1,0 +1,1 @@
+Professor, resolvi fazer algumas validações mais completas com relação a segurança em formulários, aí deixei de fazer as duas atividades simples pra focar nessa.

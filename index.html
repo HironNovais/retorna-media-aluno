@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <meta charset="utf-8">
+        <script src="js/validacoes.js"></script>
+    </head>
+    <body>
+        <form method="post" action="processa.php" onsubmit="return validarFormulario()">
+            <h2>Formulario Contato</h2>
+            
+            <label for="nota_01_id">Nota 01</label><br>
+            <input type="text" name="nota_01" id="nota_01_id" placeholder="Digite a nota 01"><br>
+
+            <label for="nota_02_id">Nota 02</label><br>
+            <input type="text" name="nota_02" id="nota_02_id" placeholder="Digite a nota 02"><br>
+
+            <label for="nota_03_id">Nota 03</label><br>
+            <input type="text" name="nota_03" id="nota_03_id" placeholder="Digite a nota 03"><br>
+
+            <label for="nota_04_id">Nota 04</label><br>
+            <input type="text" name="nota_04" id="nota_04_id" placeholder="Digite a nota 04"><br>
+
+            <button type="reset">Limpar</button><span> </span><button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
